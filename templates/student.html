@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Data</title>
+</head>
+<body>
+    <p>Фамилия: {{ lastname }}</p>
+    <p>Имя: {{ firstname }}</p>
+    <p>Отчество: {{ patronymic }}</p>
+    <p>Возраст: {{ age }}</p>
+    <p>Группа: {{ student_group }}</p>
+    <p>Дата рождения: {{ date_of_birth }}</p>
+    <p>Языки программирования:{% for language in programming_language %} {{ language }}{% endfor %}</p>
+    <p>Электронная почта: {{ email }}</p>
+</body>
+</html>
